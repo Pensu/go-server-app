@@ -6,10 +6,10 @@ import (
 )
 
 func main() {
-	http.HandleFunc("/", servePage)
+	http.HandleFunc("/", landingPage)
 	http.ListenAndServe(":8080", nil)
 }
 
-func servePage(writer http.ResponseWriter, request *http.Request) {
+func landingPage(writer http.ResponseWriter, request *http.Request) {
 	io.WriteString(writer, "Welcome to the landing page!")
 }
