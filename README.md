@@ -1,4 +1,4 @@
-#Sample-go-server
+Sample-go-server
 
 This is a sample go server app. 
 
